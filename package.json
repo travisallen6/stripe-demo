@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "server/server.js",
+  "proxy": "http://localhost:3010",
   "dependencies": {
     "body-parser": "^1.18.3",
     "dotenv": "^6.0.0",
@@ -15,7 +16,9 @@
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
-    "redux": "^4.0.0"
+    "react-stripe-checkout": "^2.6.3",
+    "redux": "^4.0.0",
+    "stripe": "^6.3.0"
   },
   "scripts": {
     "start": "set PORT=3000 && react-scripts start",
