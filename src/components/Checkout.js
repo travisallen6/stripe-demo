@@ -21,8 +21,8 @@ class Checkout extends Component {
     render() { 
         return ( 
            <StripeCheckout
-                name="Travis Allen"
-                description="collection"
+                name="Stripe Demo inc."
+                description="Dolla Dolla Bills"
                 image="http://via.placeholder.com/100x100"
                 token= {this.onToken}
                 stripeKey={process.env.REACT_APP_STRIPE_KEY}
